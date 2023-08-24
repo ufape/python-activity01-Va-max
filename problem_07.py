@@ -31,7 +31,7 @@ Levará 60 min.
 
 
 def main():
-     distancia = int(input("Digite a distância (em km) desejada: "))
+    distancia = int(input("Digite a distância (em km) desejada: "))
   
     resultado = distancia * 2
   
