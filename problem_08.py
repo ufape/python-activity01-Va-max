@@ -32,12 +32,18 @@ Detectamos 4 valores positivos.
 
 
 def main():
-     valor1 = float(input(f"Valor (1\6): "))  
+    valor1 = float(input(f"Valor (1\6): "))
+     
     valor2 = float(input(f"Valor (2\6): "))
+     
     valor3 = float(input(f"Valor (3\6): "))
+     
     valor4 = float(input(f"Valor (4\6): "))
+     
     valor5 = float(input(f"Valor (5\6): "))
+     
     valor6 = float(input(f"Valor (6\6): "))
+     
     quant = 0
   
     if valor1 > 0:
@@ -66,7 +72,6 @@ def main():
       
     print(f"Detectamos {quant} valores positivos. ")
     
-
 
 if __name__ == '__main__':
     main()
